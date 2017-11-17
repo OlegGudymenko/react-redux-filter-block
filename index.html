@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="layout">
+		<form class="filters-container">
+			<div class="filter-header">
+				<div class="left">
+					<span>Filters</span>
+				</div>
+				<div class="right btn-clear">
+					<span>Clear all <i class="icon ion-trash-a"></i></span>
+				</div>
+			</div>
+			<div class="filter-brand">
+				<h3>Brand:</h3>
+				<div class="tags">
+					<span class="tegs-item selected">Huawei
+						<i class="icon ion-close-round remove"></i>
+					</span>
+					<span class="tegs-item">Samsung
+						<i class="icon ion-close-round remove"></i>
+					</span>
+					<span class="tegs-item">HP
+						<i class="icon ion-close-round remove"></i>
+					</span>
+					<span class="tegs-item">Apple
+						<i class="icon ion-close-round remove"></i>
+					</span>
+				</div>
+			</div>
+			<div class="filter-price-range">
+				<h3>Price range:</h3>
+				<div class="input-container">
+					<label>From</label>
+					<input type="text">
+				</div>
+				<div class="input-container">
+					<label>To</label>
+					<input type="text">
+				</div>
+				<div class="filter-slider"></div>
+			</div>
+			<div class="filter-switch-container close">
+				<div class="switch-block">
+					<span>Another option</span>
+					<i class="icon ion-chevron-down down"></i>
+					<i class="icon ion-chevron-up up"></i>
+				</div>
+				<div class="switch-content"></div>
+			</div>
+			<div class="filter-switch-container close">
+				<div class="switch-block">
+					<span>Pricing option</span>
+					<i class="icon ion-chevron-down down"></i>
+					<i class="icon ion-chevron-up up"></i>
+				</div>
+				<div class="switch-content"></div>
+			</div>
+			<div class="filter-footer">
+				<button class="btn-apply">
+					Apply filters
+				</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
